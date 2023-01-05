@@ -1,0 +1,355 @@
+@media only screen and (max-width: 988px) {
+
+    h1 {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    header {
+        height: 750px;
+    }
+
+    form #email-input {
+        padding: 18px;
+        font-size: 18px;
+    }
+
+    form #input-label {
+        padding: 10px;
+        margin: 20px auto;
+        font-size: 18px;
+        display: block;
+        width: 150px;
+    }
+
+    h3 {
+        max-width: 480px;
+        margin: 10px auto -10px;
+    }
+
+    #enjoy-on-tv {
+        justify-content: space-between;
+        padding-block: 50px;
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+        height: 570px;
+    }
+
+    .enjoy-left {
+        width: 100%;
+    }
+
+    #download-shows {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        text-align: center;
+        height: auto;
+        gap: 0;
+        padding-block: 70px;
+        position: static;
+    }
+
+    #download-shows .downloading {
+        position: relative;
+    }
+
+    #download-shows .downloading .background {
+        width: 620px;
+    }
+
+    .downloading-card {
+        left: 17%;
+        top: 70%;
+        width: 400px;
+        height: 80px;
+    }
+
+    .downloading-card img {
+        width: 46px;
+    }
+
+    .downloading-card .info {
+        margin-left: -100px;
+    }
+
+    #download-shows .downloading .background {
+        width: 620px;
+    }
+
+    #profile-for-kids .profile {
+        height: auto;
+        gap: 20px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding-block: 50px;
+        text-align: center;
+    }
+
+    #profile-for-kids .profile img {
+        width: 570px;
+    }
+
+
+
+    #frequently-asked-questions h1 {
+        margin: 80px auto 30px;
+    }
+
+    .questions li {
+        font-size: 22px;
+        padding: 20px 30px;
+        max-width: 80%;
+    }
+
+
+    .cta {
+        font-size: 23px;
+        margin-top: 50px;
+    }
+
+    .cta-label {
+        display: block;
+        font-size: 18px;
+        margin: auto;
+        padding: 10px 5px;
+        width: 140px;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 699px) {
+
+    .hero-section {
+        margin-top: 130px;
+        max-width: 80%;
+    }
+
+    .hero-section h1 {
+        font-size: 44px;
+        margin-bottom: -10px;
+    }
+
+    .hero-section h3 {
+        margin-top: 30px;
+    }
+
+    form #email-input {
+        max-width: 80%;
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    #enjoy-on-tv .video video {
+        width: 90%;
+    }
+
+    #download-shows .downloading .background {
+        width: 100%;
+    }
+
+    .downloading-card {
+        left: 14%;
+        width: 75%;
+    }
+
+    #watch-everywhere div {
+        padding-inline: 40px;
+        width: 100%;
+    }
+
+    .downloading-card .info {
+        margin-left: 2%;
+    }
+
+    .downloading-card .info h2 {
+        font-size: 100%;
+        line-height: normal;
+    }
+
+    .downloading-card .info p {
+        color: #0071eb;
+        font-size: 90%;
+    }
+
+    .downloading-card .fa-solid {
+        margin-left: 70px;
+        font-size: 100%;
+    }
+
+    #profile-for-kids .profile img {
+        width: 100%;
+    }
+
+    form #cta {
+        width: 80%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 499px) {
+
+    header {
+        height: 620px;
+    }
+
+    nav {
+        padding: 30px;
+        margin-inline: auto;
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    nav a {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .hero-section {
+        margin-top: 100px;
+    }
+
+    .hero-section h1 {
+        font-size: 30px;
+    }
+
+    .hero-section h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    form #email-input {
+        max-width: 90%;
+        padding: 15px;
+        font-size: 16x;
+    }
+
+    #enjoy-on-tv {
+        padding: 50px 30px;
+        height: 500px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    form #input-label {
+        font-size: 18px;
+    }
+
+    #download-shows {
+        height: 520px;
+        padding-inline: 10px;
+    }
+
+    #download-shows .downloading .background {
+        width: 100%;
+    }
+
+    #download-shows {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 10px;
+    }
+
+    .downloading-card {
+        left: 12%;
+        width: 75%;
+        height: 70px;
+    }
+
+    .downloading-card .info h2 {
+        font-size: 90%;
+        margin-bottom: 2px;
+    }
+
+    .downloading-card .info p {
+        font-size: 70%;
+    }
+
+    #watch-everywhere div {
+        padding-inline: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #profile-for-kids .profile {
+        height: 530px;
+        padding-inline: 10px;
+        gap: 50px
+    }
+
+    #frequently-asked-questions {
+        width: 100%;
+        padding-inline: 0px;
+        padding-bottom: 60px;
+    }
+
+
+    .questions li {
+        font-size: 18px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    #frequently-asked-questions h1 {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .cta {
+        font-size: 18px;
+        margin-top: 25px;
+        max-width: 80%;
+        margin-inline: auto;
+    }
+
+    form #cta {
+        margin-top: -20px;
+        font-size: 16px;
+        padding: 14px;
+        width: 90%;
+    }
+
+    .cta-label {
+        margin-top: 15px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}

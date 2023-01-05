@@ -1,21 +1,26 @@
 @import url('https://fonts.cdnfonts.com/css/netflix-font');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #fff;
-    /* padding-bottom: 150px; */
     background-color: #000;
 }
 
 header {
+    overflow: hidden;
     height: 700px;
-    background-image: url(images/68747470733a2f2f757365722d696d616765732e67697468756275736572636f6e74656e742e636f6d2f33333438353032302f3130383036393433382d35656537396438302d373038392d313165622d383236342d3038666464613765306431312e6a7067.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/68747470733a2f2f757365722d696d616765732e67697468756275736572636f6e74656e742e636f6d2f33333438353032302f3130383036393433382d35656537396438302d373038392d313165622d383236342d3038666464613765306431312e6a7067.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +28,8 @@ header {
 
 nav {
     padding: 20px 50px;
-    max-width: 100%;
+    max-width: 2000px;
+    margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,11 +51,11 @@ nav a {
 .hero-section {
     margin: auto;
     margin-top: 130px;
-    width: 630px;
+    max-width: 630px;
     text-align: center;
 }
 
-.hero-section h1{
+.hero-section h1 {
     font-size: 50px;
 }
 
@@ -60,6 +66,7 @@ nav a {
 }
 
 h3 {
+    text-align: center;
     margin-top: 40px;
     font-weight: 400;
     font-size: 20px;
@@ -67,7 +74,7 @@ h3 {
 
 form {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 form #email-input {
@@ -85,7 +92,7 @@ form #input-label {
 }
 
 form #input-label:hover {
-    background-image: linear-gradient(180deg,#e50914,#db0510);
+    background-image: linear-gradient(180deg, #e50914, #db0510);
 }
 
 
@@ -100,13 +107,15 @@ form #input-label:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    gap: 10px;
+    max-width: 1400px;
+    margin: auto;
     padding: 0 80px;
     background-color: #000;
     height: 450px;
 }
 
-.enjoy-left  {
+.enjoy-left {
     width: 550px;
 }
 
@@ -123,14 +132,16 @@ h2 {
 
 /* Third Section */
 
-#download-shows {    
+#download-shows {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 520px;
-    padding-inline: 80px;
+    gap: 10px;
+    padding-inline: 50px;
     position: relative;
     max-width: 1400px;
+    margin: auto;
 }
 
 #download-shows .downloading .background {
@@ -140,14 +151,17 @@ h2 {
 .downloading-card {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
     border: 2px solid #2A292A;
     padding: 12px;
     border-radius: 10px;
     width: 330px;
-    position: absolute;
-    left: 190px;
-    top: 340px;
     background-color: #000;
+
+    position: absolute;
+    left: 150px;
+    top: 340px;
 }
 
 .downloading-card img {
@@ -180,6 +194,7 @@ h2 {
 
 #watch-everywhere {
     max-width: 1400px;
+    margin-inline: auto;
     height: 250px;
     display: flex;
     justify-content: center;
@@ -195,6 +210,7 @@ h2 {
 
 #profile-for-kids .profile {
     max-width: 1400px;
+    margin-inline: auto;
     height: 530px;
     display: flex;
     gap: 40px;
@@ -211,7 +227,9 @@ h2 {
 
 #frequently-asked-questions {
     max-width: 1400px;
+    margin-inline: auto;
     padding-bottom: 80px;
+    padding-inline: 20px;
 }
 
 #frequently-asked-questions h1 {
@@ -259,7 +277,7 @@ form #cta {
 #the-footer {
     max-width: 1000px;
     margin-inline: auto;
-    padding: 80px 80px 20px;
+    padding: 80px 30px 20px;
 }
 
 .footer-container {
@@ -269,9 +287,9 @@ form #cta {
 }
 
 .footer-container ul li {
-list-style-type: none;
-margin-bottom: 15px;
-font-size: 14px;
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-size: 14px;
 }
 
 .footer-info {
@@ -293,4 +311,18 @@ font-size: 14px;
     color: #737373;
     margin-top: 50px;
     text-align: center;
+}
+
+.credits .v a{
+    color: rgb(165, 0, 165);
+    text-decoration: none;
+}
+
+.credits .v a:hover {
+    text-decoration: underline;
+}
+
+.credits .r {
+    color: #db0510;
+    font-size:20px;
 }
